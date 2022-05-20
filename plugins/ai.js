@@ -1,6 +1,5 @@
 let Leon = require('../events');
 let Bot = require('../events');
-let {MessageType} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let axios = require('axios');
 let { MessageType, Mimetype, MessageOptions } = require('@adiwajshing/baileys');
