@@ -157,12 +157,6 @@ ${chalk.green.bold("🔄 Connecting...")}`);
              await Leon.sendMessage(Leon.user.jid, decodeURI(startMsg.ml), MessageType.text);
         }
     });
-
-    if (config.AUTOINSTALL == 'true') {
-      await plugindb.installPlugin("https://gist.github.com/TOXIC-DEVIL/62604c46e0f5f09eb60f95e3782de9b7/raw", 'dice');
-      await plugindb.installPlugin("https://gist.github.com/TOXIC-DEVIL/4596c5435668b68425271a2ee2db2ba7/raw", 'slot');
-      await plugindb.installPlugin("https://gist.github.com/TOXIC-DEVIL/6047050056cc9923ba97aa59722719e5/raw", 'anime');
-    }
     
     setInterval(async () => { 
         if (config.AUTOBIO == 'true') {
