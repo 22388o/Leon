@@ -17,7 +17,6 @@ module.exports = {
     FULLACO: process.env.FULL_ACO === undefined ? 'false' : process.env.FULL_ACO,
     CHATMODE: process.env.CHAT_MODE === undefined ? 'false' : process.env.CHAT_MODE,
     ANTISPAM: process.env.ANTI_SPAM === undefined ? 'false' : process.env.ANTI_SPAM,
-    AUTOINSTALL: process.env.AUTO_INSTALL === undefined ? 'true' : process.env.AUTO_INSTALL,
     PVTDELMSG: process.env.PRIVATE_DELETING_MESSAGE === undefined ? 'false' : process.env.PRIVATE_DELETING_MESSAGE,
     ERROR_ANALYZER: process.env.ERROR_ANALYZER === undefined ? 'true' : process.env.ERROR_ANALYZER,
     ANTIEMO: process.env.ANTI_EMOJI === undefined ? 'false' : process.env.ANTI_EMOJI,
